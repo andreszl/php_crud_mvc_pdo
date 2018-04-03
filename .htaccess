@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteRule ^inicio$        index.php
+RewriteRule ^create$        index.php?c=user&a=create
+RewriteRule ^update$        index.php?c=user&a=update
+RewriteRule ^delete$        index.php?c=user&a=delete
